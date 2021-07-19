@@ -1,0 +1,54 @@
+.body{
+    background-image:url("../img/background.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:right center;
+    height:100vh;
+}
+.form-login{
+    display:flex;
+    background:rgba(255,255,255,0.9);
+    margin:0;
+    width:90%;
+    flex-direction:column;
+    border-radius:10px;
+    box-shadow:0px 2px 7px 0px #232227;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+input{
+    background:rgba(255,255,255,0.1);
+}
+@media screen and (min-width:720px){
+    .form-login{
+        width:60%;
+    }
+}
+@media screen and (min-width:968px){
+    .form-login{
+        width:30%;
+    }
+    .title-register{
+        margin-bottom:2%;
+    }
+    .lbl{
+        margin-top:2%;
+        margin-bottom:2%;
+        font-size:125%;
+    }
+    input{
+        font-size:125%;
+        padding:1.5%;
+    }
+    .btn{
+        font-size:125%;
+        padding:1.5%;
+    }
+    .btn-margin-top{
+        margin-top:2%;
+    }
+    .link-login{margin-top:2%;margin-bottom:2%;}
+    .alert{margin-top:2%;margin-bottom:2%;}
+}
