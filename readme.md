@@ -73,13 +73,11 @@ Caso não queira criar nenhuma conta, mas queira acessar o serviço para testar 
 
 - No caso do login de usuário, você pode usar as seguintes credenciais:
 
-email: sergio@gmail.com
-senha: 123456
+email: sergio@gmail.com e senha: 123456
 
 - E no caso de login da academia:
 
-email: serginhojr21@gmail.com
-senha: 123456
+email: serginhojr21@gmail.com e senha: 123456
 <hr>
 <h2>🛠 Tecnologias</h2>
 
