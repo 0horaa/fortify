@@ -42,9 +42,9 @@ Além disso, é ideal ter um software pra facilitar o manuseio do seu banco de d
 
 <h3>Configurando o banco de dados</h3>
 
-# Ligue o seu servidor local juntamente ao MySQL e ao Interpretador PHP
-# No software de banco de dados de sua preferência, importe o arquivo fortify.sql para usá-lo da forma adequada
-# Depois acesse o seu site e veja tudo funcionando
+#### Ligue o seu servidor local juntamente ao MySQL e ao Interpretador PHP
+#### No software de banco de dados de sua preferência, importe o arquivo fortify.sql para usá-lo da forma adequada
+#### Depois acesse o seu site e veja tudo funcionando
 <hr>
 <h2 align="center">Teste a aplicação hospedada na web</h2>
 <p>
@@ -52,13 +52,14 @@ Além disso, é ideal ter um software pra facilitar o manuseio do seu banco de d
 	<a href="http://fortify.atwebpages.com/">fortify.atwebpages.com</a>.
 	Vale ler algumas ressalvas antes de testar.
 </p>
-	- 1. ⚠️ ATENÇÃO. Caso queira criar um cadastro de academia no site pra testar, não utilize uma senha
+
+	⚠️ ATENÇÃO. Caso queira criar um cadastro de academia no site pra testar, não utilize uma senha
 	 que você use em quaisquer outros serviços. Use senhas genéricas como 000000, já que o login e o 
 	 cadastro são realmente só pra testar as funcionalidades da aplicação. E como a hospedagem
 	 não conta com protocolo HTTPS, é ideal não inserir informações e/ou senhas das quais você
 	 utiliza em serviços reais.
 
-	- 2. O sistema de envio de emails com a lib PHPMailer não está funcionando na hospedagem, tendo em vista que a maioria dos serviços de hospedagem exigem que você utilize um email próprio criado por eles na hora de utilizar essa lib. Contudo, funcionará tranquilamente no seu servidor local ou na sua hospedagem com email próprio, contanto que:
+	O sistema de envio de emails com a lib PHPMailer não está funcionando na hospedagem, tendo em vista que a maioria dos serviços de hospedagem exigem que você utilize um email próprio criado por eles na hora de utilizar essa lib. Contudo, funcionará tranquilamente no seu servidor local ou na sua hospedagem com email próprio, contanto que:
 
 	 	- No arquivo "register_main.php" na linha 120 você insira no atributo "Username" o email de sua preferência que funcionará como o remetente dos emails;
 	 	
@@ -68,7 +69,7 @@ Além disso, é ideal ter um software pra facilitar o manuseio do seu banco de d
 	 	
 	 	- ⚠️ Obs: Caso esteja utilizando um gmail da google como remetente, você precisa ir nas configurações desse email da sua preferência e permitir o uso para servições externos. Para isso, vá até a página de gerenciamento de conta Google, depois em: "Segurança" > "Acesso a app menos seguro" e então clique em "Ativar acesso" e por fim ative o controle de "Permitir aplicativos menos seguros".
 
-	- 3. Caso não queira criar nenhuma conta, mas queira acessar o serviço para testar as funcionalidades, você pode usar as credenciais padrões que já existem para essa finalidade.
+	Caso não queira criar nenhuma conta, mas queira acessar o serviço para testar as funcionalidades, você pode usar as credenciais padrões que já existem para essa finalidade.
 
 		- No caso do login de usuário, você pode usar as seguintes credenciais:
 
@@ -94,7 +95,7 @@ As ferramentas utilizadas para o desenvolvimento da aplicação foram:
 <a href="https://github.com/0horaa">
  <img style="border-radius: 50%;" src="https://github.com/0horaa.png" width="100px;" alt=""/>
  <br />
- <sub><b>Sérgio Gabriel</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">🚀</a>
+ <sub><b>Sérgio Gabriel</b></sub></a> 🚀
 
 
 <a href="https://twitter.com/0hora_"><h4>Twitter</h4></a>
