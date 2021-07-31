@@ -91,7 +91,7 @@ As ferramentas utilizadas para o desenvolvimento da aplicação foram:
 ---
 
 <a href="https://github.com/0horaa">
- <img style="border-radius: 50%;" src="https://github.com/0horaa.png" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://github.com/0horaa.png" width="100px;" height="100px" alt=""/>
  <br />
  <sub><b>Sérgio Gabriel</b></sub></a> 🚀
 
