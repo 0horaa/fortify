@@ -67,7 +67,7 @@ O sistema de envio de emails com a lib PHPMailer não está funcionando na hospe
 	 	
 - Você tenha os arquivos e os links corretos para as classes da lib. Todas as classes estão dentro de config/mailer. Além disso, no arquivo "register.php" nas primeiras 10 linhas é mostrado o processo pra importação e uso dessas classes, além da criação do objeto "$mail" que é utilizado no arquivo "register_main.php" pra acessar todas as propriedades da classe "PHPMailer()" e executar todas as funcionalidades necessárias;
 	 	
-- ⚠️ Obs: Caso esteja utilizando um gmail da google como remetente, você precisa ir nas configurações desse email da sua preferência e permitir o uso para servições externos. Para isso, vá até a página de gerenciamento de conta Google, depois em: "Segurança" > "Acesso a app menos seguro" e então clique em "Ativar acesso" e por fim ative o controle de "Permitir aplicativos menos seguros".
+- ⚠️ Obs: Caso esteja utilizando um gmail da google como remetente, você precisa ir nas configurações desse email da sua preferência e permitir o uso para serviços externos. Para isso, vá até a página de gerenciamento de conta Google, depois em: "Segurança" > "Acesso a app menos seguro" e então clique em "Ativar acesso" e por fim ative o controle de "Permitir aplicativos menos seguros".
 
 Caso não queira criar nenhuma conta, mas queira acessar o serviço para testar as funcionalidades, você pode usar as credenciais padrões que já existem para essa finalidade.
 
